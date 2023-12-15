@@ -12,7 +12,6 @@ import {
 import { generateUrlSecret } from './generateSecret'
 import { SanityClientLike } from './types'
 
-/** @internal */
 export async function createPreviewSecret(
   _client: SanityClient,
   source: string,
